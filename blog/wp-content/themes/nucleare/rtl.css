@@ -1,0 +1,108 @@
+/*
+Theme Name: nucleare
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+.spaceRight {
+	padding-right: 0;
+	padding-left: 5px;
+}
+.spaceLeft {
+	padding-left: 0;
+	padding-right: 5px;
+}
+.widget_archive li a, .widget_categories li a {
+	float: right;
+}
+.widget_archive li, .widget_categories li {
+	text-align: left;
+}
+.theNavigationSocial {
+	direction: ltr;
+}
+.main-navigation div > ul > li > ul::before {
+	right: 36px;
+	left: inherit;
+}
+.main-navigation div > ul > li > ul::after {
+	right: 33px;
+	left: inherit;
+}
+.main-navigation ul ul li a:not(:last-child):after {
+	content: "\f104";
+	margin: 2px 7px 0 0;
+	float: left;
+}
+.main-navigation ul ul ul {
+	right: 100%;
+	left: inherit;
+	-webkit-transform: translate3d(-20px,0,0);
+	transform: translate3d(-20px,0,0);
+}
+figure.entry-featuredImg:after {
+	right: 5em;
+	left: inherit;
+}
+.sticky .entry-header:before {
+	right: inherit;
+	left: 1em;
+}
+#comments article footer img {
+	float: right;
+	margin-left: 1.5em;
+	margin-right: 0;
+}
+#comments .reply {
+	left: 0;
+	right: inherit;
+}
+#comments ol ol {
+	padding-left: 0;
+	padding-right: 5%;
+}
+.post-navigation .nav-previous .theNavigationArrow {
+	text-align: left;
+}
+.post-navigation .nav-previous {
+	text-align: left;
+}
+.post-navigation .nav-previous .meta-nav span:after {
+	left: 100%;
+}
+textarea {
+	padding-right: 8px;
+	padding-left: 0;
+}
+#close-search {
+	float: left;
+}
+@media all and (max-width: 767px) {
+	figure.entry-featuredImg:after {
+		right: 2.5em;
+		left: inherit;
+	}
+	.sticky .entry-header:before {
+		right: inherit;
+		left: 0.5em;
+	}
+}
+@media all and (max-width: 579px) {
+	figure.entry-featuredImg:after {
+		right: 1em;
+		left: inherit;
+	}
+	.sticky .entry-header:before {
+		right: inherit;
+		left: 0.3em;
+	}
+}

@@ -1,0 +1,13 @@
+[26-May-2015 17:55:16 America/New_York] PHP Parse error:  syntax error, unexpected '$subject' (T_VARIABLE) in /home/numozmrr/public_html/mail-it.php on line 26
+[26-May-2015 18:02:42 America/New_York] PHP Parse error:  syntax error, unexpected 'req' (T_STRING) in /home/numozmrr/public_html/mail-it.php on line 43
+[26-May-2015 18:09:21 America/New_York] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/numozmrr/public_html/mail-it.php on line 25
+[26-May-2015 18:18:24 America/New_York] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/numozmrr/public_html/mail-it.php on line 40
+[26-May-2015 18:31:41 America/New_York] PHP Parse error:  syntax error, unexpected 'req' (T_STRING) in /home/numozmrr/public_html/mail-it.php on line 59
+[09-Jun-2015 16:59:07 America/New_York] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/numozmrr/public_html/mail-it.php on line 13
+[09-Jun-2015 17:03:55 America/New_York] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/numozmrr/public_html/mail-it.php on line 14
+[09-Jun-2015 17:06:16 America/New_York] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/numozmrr/public_html/mail-it.php on line 66
+[09-Jun-2015 17:08:35 America/New_York] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/numozmrr/public_html/mail-it.php on line 66
+[09-Jun-2015 17:14:17 America/New_York] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/numozmrr/public_html/mail-it.php on line 66
+[09-Jun-2015 17:23:34 America/New_York] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/numozmrr/public_html/mail-it.php on line 58
+[09-Jun-2015 17:29:37 America/New_York] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/numozmrr/public_html/mail-it.php on line 58
+[09-Jun-2015 17:35:58 America/New_York] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/numozmrr/public_html/mail-it.php on line 66

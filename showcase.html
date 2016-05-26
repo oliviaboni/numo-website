@@ -1,0 +1,390 @@
+﻿<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]>
+<!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Numo</title>
+	<meta name="description" content="Numo is a mobile app that solves math by snapping a picture">
+	<meta name="author" content="Olivia Bonitatibus">
+	<meta name="keywords" content="Numo, App, Math, Solve, Equations, Solver, Photo, Snap, Picture, Mobile, Camera, Pic, homework, calculus, algebra, Android, iOS">
+	<meta name="wot-verification" content="33cb16d7c6db729ccd0b"/>
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	
+	
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="css/base.css"/>
+	<link rel="stylesheet" href="css/skeleton.css"/>
+	<link rel="stylesheet" href="css/layout.css"/>
+	<link rel="stylesheet" href="css/settings.css"/>
+	<link rel="stylesheet" href="css/font-awesome.css" />
+	<!--<link rel="stylesheet" href="css/owl.carousel.css"/>-->
+	<link rel="stylesheet" href="css/retina.css"/>
+	<link rel="stylesheet" href="css/colorbox.css"/>
+	<link rel="stylesheet" href="css/animsition.min.css"/>
+	
+    <link rel="alternate stylesheet" type="text/css" href="css/colors/color-7.css" title="7">
+	
+
+		
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
+	
+	
+	
+</head>
+<body>	
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<div class="animsition">
+		
+	
+	<!-- MENU
+    ================================================== -->	
+	<div class="header-signup" id="header-signup">
+		<form name="ajax-form2" id="ajax-form2" action="mail-it.php" method="post">
+			<div>
+				<ul class="sign-up-bar is-fixed">
+					<li><p style="color:#fff;"><strong>Get Early Access:</strong></p></li>
+					<li>
+						<input name="email" id="email2" type="text" class="email" placeholder="E-mail"style="width:100%; font-size:1em; font-weight:700;"/>
+					</li>
+					<li>
+						<input type="hidden" id="platform" name="platform" value="" />
+							<div class="btn-group" data-toggle="buttons-checkbox">
+								<button type="button" class="btn-signup" style="padding:0; font-size:1em;   border:1px solid #36C3AA;">iPhone</button>
+								<button type="button" class="btn-signup" style="padding:0; font-size:1em;   border:1px solid #36C3AA;">Android</button>
+							</div>
+					</li>
+					<li>
+						<div>
+							<button class="send_signup" id="send2">OK</button>
+						</div>
+					</li>
+				</ul>
+				<div> 
+					<div class="error" id="err-email2">please enter e-mail</div>
+					<div class="error" id="err-emailvld2">e-mail is not a valid format</div>
+					<div class="error text-align-center" id="err-form2">There was a problem validating the form. Please check your information!</div>
+					<div class="error text-align-center" id="err-timedout2">The connection to the server timed out!</div>
+					<div class="error" id="err-state2"></div>
+				</div>
+			</div>
+		</form>
+		<div id="ajaxsuccess2">Success! Thank you for joining Numo!</div>
+	</div>
+
+	<div class="header-top">
+	
+		<header class="cd-main-header">
+			<a class="cd-logo animsition-link" href="index.html"><img src="images/logo.svg" alt="Numo Logo"></a>
+
+			<ul class="cd-header-buttons">
+				<!--<li><a class="cd-search-trigger" href="#cd-search"><span></span></a></li>-->
+				<li><a class="cd-nav-trigger" href="#cd-primary-nav"><span></span></a></li>
+			</ul> <!-- cd-header-buttons -->
+		</header>
+		
+		<nav class="cd-nav">
+			<ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
+			
+				<li>
+					<a href="index.html" class="scroll">Home</a>
+				</li>
+
+				<li>
+					<a href="index.html#beta" class="scroll" id="beta-scroll">Beta Sign-Up</a>
+				</li>
+			
+				<li>
+					<a href="index.html#how_it_works" class="scroll">How it works</a>
+				</li>
+
+				<li>
+					<a href="http://blog.numoapp.com/">Blog</a>
+				</li>
+
+			</ul> <!-- primary-nav -->
+		</nav> <!-- cd-nav -->
+	
+	</div>
+	
+	<main class="cd-main-content">
+	
+
+	<!-- SECTION
+    ================================================== -->	
+	
+<section class="home cd-main-content-app">
+
+			<div class="cd-slider-nav">
+				<a class="cd-prev" href="#0" style="left:1%">&#xf104;</a>
+				<a class="cd-next" href="#0" style="right:1%">&#xf105;</a>
+			</div> <!-- cd-slider-nav -->
+		
+			<div class="cd-product-intro">
+				<h1>Welcome, Traveler.</h1>
+				<p style="font-size:1.2em">Take the <span class="subtitle-written">Numo</span> tour.</p>
+				<div class="cd-triggers">
+					<!--<a href="#" class="btn" style="border: 1px solid #36c3aa; borer-radius: 5px;">Download</a>-->
+					<a href="#cd-product-tour" class="btn" data-type="cd-tour" style="border: 2px solid #36c3aa;">Start</a>
+				</div>
+			</div> <!-- cd-product-intro -->
+
+			<div id="cd-product-tour">
+				<ul>
+					<li class="cd-single-item cd-active">
+						<div class="cd-caption">
+							<h2>Cameras ready!</h2>
+							<p>Those long tricky problems with weird math symbols and confusing syntax, you know the ones - you don't need to type them out anymore! Get em done faster and take a picture!
+							</p>
+
+						</div>
+						<div class="cd-image-container">
+							<div>
+								<div class="cd-phone-frame"></div>
+								<div class="cd-image-wrapper">
+									<img src="images/screen-1.png" alt="Screen Preview 1">
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="cd-single-item cd-not-visible cd-move-right">
+						<div class="cd-caption">
+							<h2>Gaze in Wonder.</h2>
+							<p>Numo works automatically to get you the answers you need the moment you ask.
+							</p>
+						</div>
+						<div class="cd-image-container">
+							<div>
+								<div class="cd-phone-frame"></div>
+								<div class="cd-image-wrapper">
+									<img src="images/screen-2.png" alt="Screen Preview 2">
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="cd-single-item cd-not-visible cd-move-right">
+						<div class="cd-caption">
+							<h2>The Best Tour Guide.</h2>
+							<p>Let Numo guide you though each step of the problem, from start to finish.
+							</p>
+						</div>
+						<div class="cd-image-container">
+							<div>
+								<div class="cd-phone-frame"></div>
+								<div class="cd-image-wrapper">
+									<img src="images/screen-3.png" alt="Screen Preview 3">
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="cd-single-item cd-not-visible cd-move-right">
+						<div class="cd-caption">
+							<h2>Ask Away.</h2>
+							<p>If something isn't clear, just tap on a step and Numo will walk you through how to do it.
+							</p>
+							<a href="index.html#beta" class="tour-btn">Get Numo</a>
+						</div>
+						<div class="cd-image-container">
+							<div>
+								<div class="cd-phone-frame"></div>
+								<div class="cd-image-wrapper">
+									<img src="images/screen-4.png" alt="Screen Preview 3">
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div> <!-- cd-product-tour -->
+
+			<div class="cd-loader"></div> <!-- top loading bar -->		
+						
+		</section>	
+
+
+	<!-- FOOTER
+    ================================================== -->	
+	
+		<section class="section footer-1 section-padding-top-bottom">	
+			<div class="container">
+				<div class="four columns" data-scroll-reveal="enter left move 200px over 0.5s after 0.8s">
+					<a href="index.html" class="animsition-link"><div class="logo-footer"></div></a>
+					<br>
+					<p><a href="privacy_policy.html">Privacy</a></p>
+				</div>
+				<div class="four columns" data-scroll-reveal="enter left move 200px over 0.5s after 0.3s">
+					<h6><i class="icon-footer">&#xf041;</i>Philadelphia</h6>
+					<p>Pennsylvania, USA<br/>
+					+1 2158405466</p>
+				</div>
+				<div class="four columns" data-scroll-reveal="enter right move 200px over 0.5s after 0.3s">
+					<div class="social-bottom">
+						<ul class="list-social">
+							<li class="icon-soc" style="padding-right:40px">
+								<a href="https://twitter.com/numoapp">&#xf099;</a>
+							</li>
+							<li class="icon-soc" style="padding-right:35px">
+								<a href="https://www.facebook.com/Numoapp">&#xf09a;</a>
+							</li>
+							<li class="icon-soc">
+								<a href="https://instagram.com/lilnumo">&#xf16d;</a>
+							</li>
+						</ul>	
+					</div>
+					<p><i class="icon-footer">&#xf0e0;</i><a href="mailto:info@numoapp.com" title="">info@numoapp.com</a></p>
+				</div>	
+				<div class="four columns" data-scroll-reveal="enter right move 200px over 0.5s after 0.8s">
+					<img width="125px" height="auto" src="images/App_Play_Store_white.png">
+				</div>
+			</div>
+		</section>
+		<section class="section footer-bottom">	
+			<div class="container">
+				<div class="sixteen columns">
+					<p>© ALL RIGHTS RESERVED. SKYROC 2015</p>
+				</div>	
+			</div>
+		</section>
+
+
+
+		
+	</main>		
+
+	<div class="scroll-to-top">&#xf106;</div>
+	
+	
+	</div> 
+	
+	
+		
+	<!-- JAVASCRIPT
+    ================================================== -->
+<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+<script type="text/javascript" src="js/jquery.mobile.custom.min.js"></script>
+<script type="text/javascript" src="js/retina-1.1.0.min.js"></script>	
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>	
+<script type="text/javascript" src="js/jquery.animsition.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+$(".animsition").animsition({
+inClass       :   'fade-in',
+outClass      :   'fade-out',
+inDuration    :    1500,
+outDuration   :    800,
+linkElement   :   '.animsition-link', 
+// e.g. linkElement   :   'a:not([target="_blank"]):not([href^=#])'
+touchSupport  :    true, 
+loading       :    true,
+loadingParentElement  :   'body', //animsition wrapper element
+loadingClass  :   'animsition-loading',
+unSupportCss  : [ 'animation-duration',
+  '-webkit-animation-duration',
+  '-o-animation-duration'
+],
+overlay       :   false,
+overlayClass  :   'animsition-overlay-slide',
+overlayParentElement  :   'body'
+});
+}); 
+</script>
+<script type="text/javascript">
+// Find all YouTube videos
+var $allVideos = $("iframe[src^='//www.youtube.com']"),
+
+    // The element that is fluid width
+    $fluidEl = $("body");
+
+// Figure out and save aspect ratio for each video
+$allVideos.each(function() {
+
+  $(this)
+    .data('aspectRatio', this.height / this.width)
+
+    // and remove the hard coded width/height
+    .removeAttr('height')
+    .removeAttr('width');
+
+});
+
+// When the window is resized
+$(window).resize(function() {
+
+  var newWidth = $fluidEl.width();
+
+  // Resize all videos according to their own aspect ratio
+  $allVideos.each(function() {
+
+    var $el = $(this);
+    $el
+      .width(newWidth)
+      .height(newWidth * $el.data('aspectRatio'));
+
+  });
+
+// Kick off one resize to fix all videos on page load
+}).resize();
+</script>
+<script type="text/javascript" src="js/jquery.easing.js"></script>	
+<!--<script type="text/javascript" src="js/smoothScroll.js"></script>-->
+<script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>   
+<script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script> 
+<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script> 
+<script type="text/javascript" src="js/masonry.js"></script> 
+<script type="text/javascript" src="js/isotope.js"></script> 
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+<script type="text/javascript" src="js/waypoints.min.js"></script>
+<script type="text/javascript" src="js/smk-accordion.js"></script>
+<script type="text/javascript" src="js/scrollReveal.js"></script>
+<script type="text/javascript">
+(function($) { "use strict";
+      window.scrollReveal = new scrollReveal();
+})(jQuery);
+</script>
+<script type="text/javascript"> 
+(function($) { "use strict";          
+			jQuery(document).ready(function() {
+				var offset = 450;
+				var duration = 500;
+				jQuery(window).scroll(function() {
+					if (jQuery(this).scrollTop() > offset) {
+						jQuery('.scroll-to-top').fadeIn(duration);
+					} else {
+						jQuery('.scroll-to-top').fadeOut(duration);
+					}
+				});
+				
+				jQuery('.scroll-to-top').click(function(event) {
+					event.preventDefault();
+					jQuery('html, body').animate({scrollTop: 0}, duration);
+					return false;
+				})
+			});
+})(jQuery);
+</script>
+<script type="text/javascript" src="js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="js/contact.js"></script>
+<script type="text/javascript" src="js/signupbar.js"></script>
+<script type="text/javascript" src="js/styleswitcher.js"></script>
+<script type="text/javascript" src="js/custom-showcase-home-1.js"></script>  
+<!-- End Document
+================================================== -->
+</body>
+</html>	

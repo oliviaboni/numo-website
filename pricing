@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]>
+<!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Numo</title>
+	<meta name="description" content="Numo is a mobile app that solves math by snapping a picture">
+	<meta name="author" content="Olivia Bonitatibus">
+	<meta name="keywords" content="Numo, App, Math, Solve, Equations, Solver, Photo, Snap, Picture, Mobile, Camera, Pic, homework, calculus, algebra, Android, iOS">
+	<meta name="wot-verification" content="33cb16d7c6db729ccd0b"/>
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	
+	
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="css/base.css"/>
+	<link rel="stylesheet" href="css/skeleton.css"/>
+	<link rel="stylesheet" href="css/layout.css"/>
+	<link rel="stylesheet" href="css/settings.css"/>
+	<link rel="stylesheet" href="css/font-awesome.css" />
+	<!--<link rel="stylesheet" href="css/owl.carousel.css"/>-->
+	<link rel="stylesheet" href="css/retina.css"/>
+	<link rel="stylesheet" href="css/colorbox.css"/>
+	<link rel="stylesheet" href="css/animsition.min.css"/>
+	
+    <link rel="alternate stylesheet" type="text/css" href="css/colors/color-7.css" title="7">
+	
+
+		
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
+	
+	
+	
+</head>
+<body>	
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<div class="animsition">
+		
+	
+	<!-- MENU
+    ================================================== -->	
+	<div class="header-signup" id="header-signup">
+		<form name="ajax-form2" id="ajax-form2" action="mail-it.php" method="post">
+			<div>
+				<ul class="sign-up-bar is-fixed">
+					<li><p style="color:#fff;"><strong>Get Early Access:</strong></p></li>
+					<li>
+						<input name="email" id="email2" type="text" class="email" placeholder="E-mail"style="width:100%; font-size:1em; font-weight:700;"/>
+					</li>
+					<li>
+						<input type="hidden" id="platform" name="platform" value="" />
+							<div class="btn-group" data-toggle="buttons-checkbox">
+								<button type="button" class="btn-signup" style="padding:0; font-size:1em;   border:1px solid #36C3AA;">iPhone</button>
+								<button type="button" class="btn-signup" style="padding:0; font-size:1em;   border:1px solid #36C3AA;">Android</button>
+							</div>
+					</li>
+					<li>
+						<div>
+							<button class="send_signup" id="send2">OK</button>
+						</div>
+					</li>
+				</ul>
+				<div> 
+					<div class="error" id="err-email2">please enter e-mail</div>
+					<div class="error" id="err-emailvld2">e-mail is not a valid format</div>
+					<div class="error text-align-center" id="err-form2">There was a problem validating the form. Please check your information!</div>
+					<div class="error text-align-center" id="err-timedout2">The connection to the server timed out!</div>
+					<div class="error" id="err-state2"></div>
+				</div>
+			</div>
+		</form>
+		<div id="ajaxsuccess2">Success! Thank you for joining Numo!</div>
+	</div>
+
+	<div class="header-top">
+	
+		<header class="cd-main-header">
+			<a class="cd-logo animsition-link" href="index.html"><img src="images/logo.svg" alt="Numo Logo"></a>
+
+			<ul class="cd-header-buttons">
+				<!--<li><a class="cd-search-trigger" href="#cd-search"><span></span></a></li>-->
+				<li><a class="cd-nav-trigger" href="#cd-primary-nav"><span></span></a></li>
+			</ul> <!-- cd-header-buttons -->
+		</header>
+		
+		<nav class="cd-nav">
+			<ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
+			
+				<li>
+					<a href="index.html" class="scroll">Home</a>
+				</li>
+
+				<li>
+					<a href="index.html#beta" class="scroll" id="beta-scroll">Beta Sign-Up</a>
+				</li>
+
+				<li>
+					<a href="showcase.html" class="scroll">Tour</a>
+				</li>
+			
+				<li>
+					<a href="index.html#how_it_works" class="scroll">How it works</a>
+				</li>
+
+				<li>
+					<a href="http://blog.numoapp.com/">Blog</a>
+				</li>
+
+			</ul> <!-- primary-nav -->
+		</nav> <!-- cd-nav -->
+	
+	</div>
+	
+	<main class="cd-main-content">
+	
+
+	<!-- SECTION
+    ================================================== -->	
+	
+	<section class="home section parallax-section">
+		
+			<div class="parallax-3"></div>
+		
+			<div class="fullscreen-title-home">YOU'VE <span>PROBABLY</span> NOTICED</div>
+			<div class="fullscreen-subtitle-home">We Love What We Do</div>
+						
+	</section>
+
+
+	<!-- FOOTER
+    ================================================== -->	
+	
+		<section class="section footer-1 section-padding-top-bottom">	
+			<div class="container">
+				<div class="four columns" data-scroll-reveal="enter left move 200px over 0.5s after 0.8s">
+					<a href="index.html" class="animsition-link"><div class="logo-footer"></div></a>
+					<br>
+					<p><a href="privacy_policy.html">Privacy</a></p>
+				</div>
+				<div class="four columns" data-scroll-reveal="enter left move 200px over 0.5s after 0.3s">
+					<h6><i class="icon-footer">&#xf041;</i>Philadelphia</h6>
+					<p>Pennsylvania, USA<br/>
+					+1 2158405466</p>
+				</div>
+				<div class="four columns" data-scroll-reveal="enter right move 200px over 0.5s after 0.3s">
+					<div class="social-bottom">
+						<ul class="list-social">
+							<li class="icon-soc" style="padding-right:40px">
+								<a href="https://twitter.com/numoapp">&#xf099;</a>
+							</li>
+							<li class="icon-soc" style="padding-right:35px">
+								<a href="https://www.facebook.com/Numoapp">&#xf09a;</a>
+							</li>
+							<li class="icon-soc">
+								<a href="https://instagram.com/lilnumo">&#xf16d;</a>
+							</li>
+						</ul>	
+					</div>
+					<p><i class="icon-footer">&#xf0e0;</i><a href="mailto:info@numoapp.com" title="">info@numoapp.com</a></p>
+				</div>	
+				<div class="four columns" data-scroll-reveal="enter right move 200px over 0.5s after 0.8s">
+					<img width="125px" height="auto" src="images/App_Play_Store_white.png">
+				</div>
+			</div>
+		</section>
+		<section class="section footer-bottom">	
+			<div class="container">
+				<div class="sixteen columns">
+					<p>© ALL RIGHTS RESERVED. SKYROC 2015</p>
+				</div>	
+			</div>
+		</section>
+
+
+
+		
+	</main>		
+
+	<div class="scroll-to-top">&#xf106;</div>
+	
+	
+	</div> 
+	
+	
+		
+	<!-- JAVASCRIPT
+    ================================================== -->
+<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.js"></script> 
+<script type="text/javascript" src="js/jquery.mobile.custom.min.js"></script>
+<script type="text/javascript" src="js/retina-1.1.0.min.js"></script>		
+<script type="text/javascript" src="js/jquery.animsition.min.js"></script>
+<script type="text/javascript">
+(function($) { "use strict";
+	$(document).ready(function() {
+	  
+	  $(".animsition").animsition({
+	  
+		inClass               :   'zoom-in-sm',
+		outClass              :   'zoom-out-sm',
+		inDuration            :    1500,
+		outDuration           :    800,
+		linkElement           :   '.animsition-link', 
+		// e.g. linkElement   :   'a:not([target="_blank"]):not([href^=#])'
+		loading               :    true,
+		loadingParentElement  :   'body', //animsition wrapper element
+		loadingClass          :   'animsition-loading',
+		unSupportCss          : [ 'animation-duration',
+								  '-webkit-animation-duration',
+								  '-o-animation-duration'
+								],
+		//"unSupportCss" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser. 
+		//The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+		
+		overlay               :   false,
+		
+		overlayClass          :   'animsition-overlay-slide',
+		overlayParentElement  :   'body'
+	  });
+	});  
+})(jQuery);
+</script>
+<script type="text/javascript" src="js/jquery.easing.js"></script>	
+<script type="text/javascript" src="js/jquery.hidescroll.min.js"></script>	
+<script type="text/javascript">
+	$('.header-top').hidescroll();
+</script>
+<script type="text/javascript" src="js/smoothScroll.js"></script>
+<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="js/scrollReveal.js"></script>
+<script type="text/javascript">
+(function($) { "use strict";
+      window.scrollReveal = new scrollReveal();
+})(jQuery);
+</script>
+<script type="text/javascript"> 
+(function($) { "use strict";          
+			jQuery(document).ready(function() {
+				var offset = 450;
+				var duration = 500;
+				jQuery(window).scroll(function() {
+					if (jQuery(this).scrollTop() > offset) {
+						jQuery('.scroll-to-top').fadeIn(duration);
+					} else {
+						jQuery('.scroll-to-top').fadeOut(duration);
+					}
+				});
+				
+				jQuery('.scroll-to-top').click(function(event) {
+					event.preventDefault();
+					jQuery('html, body').animate({scrollTop: 0}, duration);
+					return false;
+				})
+			});
+})(jQuery);
+</script>
+<script type="text/javascript" src="js/styleswitcher.js"></script>
+<script type="text/javascript" src="js/custom-image-home.js"></script>
+<script type="text/javascript" src="js/signupbar.js"></script>  
+<!-- End Document
+================================================== -->
+</body>
+</html>	
